@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  email: MyString
+  idmeid: false
+  affiliation: MyString
+  verified: false
+
+two:
+  email: MyString
+  idmeid: false
+  affiliation: MyString
+  verified: false
