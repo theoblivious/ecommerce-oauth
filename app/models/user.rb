@@ -1,4 +1,4 @@
 class User < ActiveRecord::Base
-	has_many :products, through: :carts
-	has_many :carts
+	has_many :products, through: :cart_items
+	has_many :cart_items
 end

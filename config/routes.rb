@@ -9,6 +9,9 @@ Rails.application.routes.draw do
    get 'pages/index'
   resources :products, only: [:show]
 
+  # non-restful routes 
+  get "/add-item/:id", to: "purchase#new", as: :add_to_cart
+
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'

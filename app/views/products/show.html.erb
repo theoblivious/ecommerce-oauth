@@ -1,4 +1,5 @@
 <h1>Title:<%=@product.title %></h1>
 <h1>Quantity:<%=@product.quantity %></h1>
 <h1>Price: <%=number_to_currency(@product.price, :precision => 2) %></h1> 
-<% link_to "purchase #{@product.title}",purchase_product_path(@product)%>
+binding.pry
+<h2><%= link_to "purchase #{@product.title}",add_to_cart_path(@product)%></h2>	

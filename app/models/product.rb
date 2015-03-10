@@ -1,4 +1,4 @@
 class Product < ActiveRecord::Base
-	has_many :users, through: :carts
-	has_many :carts
+	has_many :users, through: :cart_items
+	has_many :cart_items
 end
