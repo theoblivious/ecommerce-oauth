@@ -3,7 +3,7 @@
 <!-- maybe with the idme logic, we can then update the column for the particular user with a verification true  -->
 
 <h1>Sign Up </h1>
-<%=form_for User.new do |f| %>
+<%=form_for @user do |f| %>
 	<%=f.label :email %>
 	<%=f.text_field :email %>
 	<%=f.label :password %>
